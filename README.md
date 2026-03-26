@@ -1,4 +1,4 @@
-#Harnessing Symbolic Regression and Nonlinear Programming for Computationally Expensive Multi-Objective Optimization
+# Harnessing Symbolic Regression and Nonlinear Programming for Computationally Expensive Multi-Objective Optimization
 
 Symbolic regression provides the explicit analytical expression which allows us to use the efficient constraint handling approach available for explicit equations.
 
