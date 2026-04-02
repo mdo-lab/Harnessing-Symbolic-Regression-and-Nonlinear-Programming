@@ -6,3 +6,5 @@ The proposed approach start by initial solutions using Latin Hypercube Sampling 
 Then we perform a warm-up stage, nothing but getting the extremal solutions of the pareto front by solving for each objectives on a inexpensive symbolic regression and the solutions are truly evaluated and updated in the archive that is used to update the symbolic regression. 
 Next, the scalarized subproblem on different reference points using Tchebycheff scalarization solved on the cheap symbolic regression to get the candidate solutions. Then, a single candidate solution is selected using Distance based Subset Selection (DSS) for true evaluation.
 The evaluated solution is used to update the surrogate and the process continues until the evaluation budget exhausted.
+
+Sekar, K., Singh, H.K. and Ray, T., “Harnessing Symbolic Regression and Nonlinear Programming for Computationally Expensive Multi-Objective Optimization,” in Proceedings of ACM Genetic and Evolutionary Computation Conference, (San Jose, Costa Rica), in press, Accepted 03/2026.
